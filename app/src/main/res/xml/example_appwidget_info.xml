@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--minWidth is the default value, and will be rounded to cells-->
+<!--updatePeriodMillis defined when the widget onUpdate will be called -->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialLayout="@layout/exmple_widget"
+    android:minHeight="40dp"
+    android:minWidth="40dp"
+    android:minResizeWidth="110dp"
+    android:updatePeriodMillis="86400000"
+    android:resizeMode="horizontal|vertical"
+    android:widgetCategory="home_screen">
+
+</appwidget-provider>
